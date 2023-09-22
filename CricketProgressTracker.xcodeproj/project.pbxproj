@@ -11,6 +11,10 @@
 		A750E2682ABC9BEC001D9202 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750E2672ABC9BEC001D9202 /* ContentView.swift */; };
 		A750E26A2ABC9BED001D9202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A750E2692ABC9BED001D9202 /* Assets.xcassets */; };
 		A750E26E2ABC9BED001D9202 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A750E26D2ABC9BED001D9202 /* Preview Assets.xcassets */; };
+		A750E2752ABCA519001D9202 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750E2742ABCA519001D9202 /* Team.swift */; };
+		A750E2772ABCA54E001D9202 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750E2762ABCA54E001D9202 /* Player.swift */; };
+		A750E2792ABCA5AC001D9202 /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750E2782ABCA5AC001D9202 /* TeamViewModel.swift */; };
+		A750E27B2ABCA5FD001D9202 /* TeamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750E27A2ABCA5FD001D9202 /* TeamDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		A750E2692ABC9BED001D9202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A750E26B2ABC9BED001D9202 /* CricketProgressTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CricketProgressTracker.entitlements; sourceTree = "<group>"; };
 		A750E26D2ABC9BED001D9202 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A750E2742ABCA519001D9202 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		A750E2762ABCA54E001D9202 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A750E2782ABCA5AC001D9202 /* TeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
+		A750E27A2ABCA5FD001D9202 /* TeamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				A750E2692ABC9BED001D9202 /* Assets.xcassets */,
 				A750E26B2ABC9BED001D9202 /* CricketProgressTracker.entitlements */,
 				A750E26C2ABC9BED001D9202 /* Preview Content */,
+				A750E2742ABCA519001D9202 /* Team.swift */,
+				A750E2762ABCA54E001D9202 /* Player.swift */,
+				A750E2782ABCA5AC001D9202 /* TeamViewModel.swift */,
+				A750E27A2ABCA5FD001D9202 /* TeamDetailView.swift */,
 			);
 			path = CricketProgressTracker;
 			sourceTree = "<group>";
@@ -139,6 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A750E27B2ABCA5FD001D9202 /* TeamDetailView.swift in Sources */,
+				A750E2792ABCA5AC001D9202 /* TeamViewModel.swift in Sources */,
+				A750E2772ABCA54E001D9202 /* Player.swift in Sources */,
+				A750E2752ABCA519001D9202 /* Team.swift in Sources */,
 				A750E2682ABC9BEC001D9202 /* ContentView.swift in Sources */,
 				A750E2662ABC9BEC001D9202 /* CricketProgressTrackerApp.swift in Sources */,
 			);

@@ -7,11 +7,24 @@
 
 import SwiftUI
 
+//@main
+//struct YourApp: App {
+//    @StateObject var viewModel = TeamViewModel() // Initialize the ViewModel
+//
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//                .environmentObject(viewModel) // Pass the ViewModel to the ContentView
+//        }
+//    }
+//}
+
 @main
-struct CricketProgressTrackerApp: App {
+struct YourApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
+
